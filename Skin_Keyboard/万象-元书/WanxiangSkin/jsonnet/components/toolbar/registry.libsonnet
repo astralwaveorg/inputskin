@@ -15,6 +15,11 @@ local shared = import './config.libsonnet';
       slideStyleName: 'toolbarButtonCommandStyle',
       action: { shortcut: '#toggleCommandView' },
     },
+    symbols: {
+      cellName: 'toolbarButtonSymbolsStyle',
+      slideStyleName: 'toolbarButtonSymbolsStyle',
+      action: { shortcut: '#toggleSymbolBar' },
+    },
     note: {
       cellName: 'toolbarButtonNoteStyle',
       slideStyleName: 'toolbarButtonNoteStyle',

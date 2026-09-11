@@ -332,6 +332,7 @@ iPhone 与 iPad 共用同一组 ID：
 | --- | --- |
 | `script` | 打开/关闭键盘脚本页面 |
 | `command` | 使用 `#toggleCommandView` 打开/关闭命令面板 |
+| `symbols` | 使用 `#toggleSymbolBar` 打开/关闭符号栏 |
 | `note` | 打开常用语 |
 | `clipboard` | 打开剪切板 |
 | `hide` | 收起键盘 |

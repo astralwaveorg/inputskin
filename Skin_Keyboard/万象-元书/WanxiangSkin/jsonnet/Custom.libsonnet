@@ -194,6 +194,7 @@
     // 可用按钮 ID:
     // script: 脚本
     // command: 命令面板
+    // symbols: 符号栏
     // note: 常用语
     // clipboard: 剪切板
     // hide: 收起键盘
@@ -225,6 +226,8 @@
       // 第一种布局
       left_fixed: 'script',
       left_slide: [
+        'command',
+        'symbols',
         'google',
         'safari',
         'apple',
@@ -248,6 +251,8 @@
       left_fixed: 'menu_or_panel',
       center_slide: [
         'script',
+        'command',
+        'symbols',
         'google',
         'note',
         'clipboard',
@@ -293,6 +298,7 @@
       // apple: App Store 搜索
       // script: 脚本
       // command: 命令面板
+      // symbols: 符号栏
       // note: 常用语
       // clipboard: 剪切板
       // symbol: 符号键盘
@@ -300,9 +306,11 @@
       // 中间区域当前显示 11 个按钮，只有按钮数量超过 11 个时才会产生横向滑动
       center_slide: [
         'keyboard_settings',
-        'keyboard_skins',
+        'command',
+        'symbols',
+        // 'keyboard_skins',
         'embedding_toggle',
-        'rime_switcher',
+        // 'rime_switcher',
         'google',
         'safari',
         'script',

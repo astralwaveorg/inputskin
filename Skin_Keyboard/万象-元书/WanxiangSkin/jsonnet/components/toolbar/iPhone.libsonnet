@@ -182,6 +182,8 @@ local getToolBar(theme, overrides={}) =
     toolbarButtonScriptForegroundStyle: makeToolbarSystemImageForegroundStyle(if Settings.fix_sf_symbol then 's.circle.fill' else 'peruviansolessign.circle.fill'),
     toolbarButtonCommandStyle: makeToolbarButtonStyle('toolbarButtonCommandForegroundStyle', { shortcut: '#toggleCommandView' }),
     toolbarButtonCommandForegroundStyle: makeToolbarSystemImageForegroundStyle('command.circle.fill'),
+    toolbarButtonSymbolsStyle: makeToolbarButtonStyle('toolbarButtonSymbolsForegroundStyle', { shortcut: '#toggleSymbolBar' }),
+    toolbarButtonSymbolsForegroundStyle: makeToolbarSystemImageForegroundStyle('florinsign.circle.fill'),
     toolbarButtonEmojiStyle: makeToolbarButtonStyle('toolbarButtonEmojiForegroundStyle', { keyboardType: 'emojis' }),
     toolbarButtonEmojiForegroundStyle: makeToolbarSystemImageForegroundStyle('face.dashed.fill'),
     toolbarButtonSymbolStyle: makeToolbarButtonStyle('toolbarButtonSymbolForegroundStyle', { keyboardType: 'symbolic' }),
